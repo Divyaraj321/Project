@@ -1,0 +1,72 @@
+
+
+.donation-care {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .session-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .session-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #151414;
+  }
+  
+  .session-title p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .vd {
+    margin-bottom: 30px;
+  }
+  
+  .bkjiu {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+  }
+  
+  .bkjiu img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .bkjiu h4 {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .bkjiu p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .bkjiu .btn {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+  }
+  
+  .bkjiu .btn:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+  
+  .bkjiu:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  

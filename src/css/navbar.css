@@ -1,0 +1,100 @@
+
+
+
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1px 0; /* Reduces the navbar height */
+    background: linear-gradient(90deg, #fcfbfb 0%, #ffffff 100%);
+  }
+  
+  .navbar-brand img.logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navbar-nav {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .nav-item .nav-link {
+    color: #333;
+    padding: 5px 12px; /* Spacing around each link */
+    font-weight: bold;
+    margin-right: 20px; /* Right side margin to create space */
+    text-decoration: none;
+    font-size: 1.14rem;
+  }
+  
+  .d-flex .login01 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  
+   .nav-item .nav-link:hover, .nav-item .nav-link {
+    color: #d9534f;
+  } 
+
+
+/*  
+
+  @media (max-width: 992px) {
+    .navbar-nav .nav-item {
+      text-align: center; 
+    }
+  }
+    .login01 {
+      width: 100%; 
+      margin-bottom: 10px; 
+    } */
+   
+
+
+
+
+/*  
+@media (max-width: 992px) {
+  .navbar-nav .nav-item .nav-link{
+    text-align: center;
+  } */
+
+
+/* 
+@media (max-width: 576px) {
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  
+  .navbar {
+    padding: 8px 0; 
+  }
+} */
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-item {
+    text-align: center;
+
+  }
+            
+  .navbar-collapse {
+    display: block !important ; /* Ensures the menu items are displayed */
+  }
+   
+  .login01 {
+    margin-bottom: 10px; /* Add space between buttons */
+    text-align: center;
+     width: 100%;
+  }
+
+ 
+}

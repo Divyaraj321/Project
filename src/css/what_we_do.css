@@ -1,0 +1,114 @@
+
+
+
+.service {
+    background-color: #f7f7f7; /* Light background for contrast */
+    padding: 80px 0; /* Top and bottom spacing */
+}
+
+.common_title p {
+    font-size: 1.2rem; 
+    color: #ff4757; /* Red color for subtitle */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.common_title h2 {
+    font-size: 2.8rem; 
+    color: #333; /* Darker text for main title */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+/* 
+.service_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+}  */
+
+
+.service_item .img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; 
+    transition: transform 0.4s ease;
+}
+
+.service_item .img img {
+    width: 100%;
+    transition: transform 0.4s ease; 
+}
+
+.service_item .img:hover img {
+    transform: scale(1.05); 
+}
+
+
+.service_content {
+    padding-left: 30px;
+}
+
+.service_content h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ae9ea0; /* Bright red color for the number */
+}
+
+.service_content h4 {
+    font-size: 1.8rem;
+    color: #000; /* Main heading color */
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* text-transform: capitalize; */
+
+}
+
+.service_content a {
+    text-decoration: none;
+}
+
+.service_content p {
+    font-size: 1rem;
+    color: #666; /* Muted gray for paragraph text */
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Service Button */
+.red_btn {
+    display: inline-block;
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.red_btn:hover {
+    background-color: #e63946; /* Darker shade on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .service_content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .service_item .img {
+        margin-bottom: 20px;
+    }
+
+    .service_content h1 {
+        font-size: 3rem;
+    }
+
+    .service_content h4 {
+        font-size: 1.5rem;
+    }
+}

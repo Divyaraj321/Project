@@ -1,0 +1,55 @@
+
+
+
+
+/* countdown */
+.hm1_counter {
+    background-color: #f7f7f7;
+}
+
+.counter_item {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.counter_item:hover {
+    transform: translateY(-10px);
+}
+
+.counter_item img {
+    width: 60px;
+    height: 60px;
+}
+
+.counter_item h2 {
+    font-size: 2.5rem;
+    color: #ff4757;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.counter_item p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.count {
+    color: #ff4757;
+    font-weight: 700;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .counter_item h2 {
+        font-size: 2rem;
+    }
+
+    .counter_item p {
+        font-size: 1rem;
+    }
+}
+
+

@@ -1,0 +1,101 @@
+
+
+
+
+/* helpers */
+
+.help_people {
+    background-color: #f7f7f7; /* Light background for a clean look */
+}
+
+.help_wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.help_wrap img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.help_wrap .help_over {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 50%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.help_wrap:hover .help_over {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.help_content {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.help_content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.help_content p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.red_color {
+    color: #ff4757;
+    font-weight: 600;
+}
+
+.red_btn {
+    padding: 10px 25px;
+    background-color: #ff4757;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.red_btn:hover {
+    background-color: #e63946;
+}
+
+/* Icon styling */
+.fa-angles-right {
+    font-size: 1.2rem;
+    color: #ff4757;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .help_content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .help_wrap .help_over {
+        width: 40%;
+        top: 10%;
+    }
+
+    .help_wrap img {
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
